@@ -1,0 +1,19 @@
+Django>=5.2,<6
+djangorestframework>=3.15
+django-allauth>=0.63
+django-guardian>=2.4
+django-environ>=0.11.2
+
+# middlewares & intégrations
+whitenoise>=6.7
+django-storages>=1.14
+boto3>=1.28
+
+# audit / historique
+django-auditlog>=2.3
+django-simple-history>=3.7
+
+# fichiers & outils
+python-magic>=0.4.27
+docxtpl>=0.16.7
+psycopg[binary]>=3.1

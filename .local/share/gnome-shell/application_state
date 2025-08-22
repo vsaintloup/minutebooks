@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<application-state>
+  <context id="">
+    <application id="gnome-initial-setup.desktop" score="30" last-seen="1755538215"/>
+    <application id="org.gnome.Settings.desktop" score="33" last-seen="1755540890"/>
+    <application id="update-manager.desktop" score="1" last-seen="1755539263"/>
+    <application id="org.gnome.Terminal.desktop" score="0" last-seen="1755540890"/>
+  </context>
+</application-state>

@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtualenv
+.venv/
+env/
+venv/
+
+# Django
+db.sqlite3
+media/
+staticfiles/
+*.log
+
+# Secrets & env
+.env
+.env.*
+*.secret
+
+# Editors/OS
+.vscode/
+.idea/
+.DS_Store
+
+# Migrations: on les versionne ! (ne pas ignorer)
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# local secrets
+.ssh/
+.env
+
+# local secrets
+.ssh/
+.env
+
+# Never commit local secrets/dotfiles
+.ssh/
+.bash_history
+.bashrc
+.profile
+.python_history
+
+# Never commit local secrets/dotfiles
+.ssh/
+.bash_history
+.bashrc
+.profile
+.python_history
+
+# Never commit local secrets/dotfiles
+.ssh/
+.bash_history
+.bashrc
+.profile
+.python_history
