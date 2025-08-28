@@ -1,6 +1,6 @@
 # Détention en fidéicommis de livres de sociétés (LSAQ + LCSA) — Blueprint Django
 
-Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **LCSA (fédéral)** et **LSAQ (Québec)**. Ce dépôt fournit une base robuste (modèle de données, API, admin, i18n, stockage, déploiement) pour démarrer rapidement et évoluer vers la production.
+Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **LCSA (fédéral)** et **LSAQ (Québec)** pour la détention d’un livre virtuel en fidéicommis par un avocat ou un notaire. Ce dépôt fournit une base robuste (modèle de données, API, admin, i18n, stockage, déploiement) pour démarrer rapidement et évoluer vers la production.
 
 > **Statut** : en construction (MVP). Code et schéma faits pour itérer vite, tout en gardant une trajectoire prod (S3, Postgres, Celery, permissions objet).
 
