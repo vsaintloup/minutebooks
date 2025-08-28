@@ -3,6 +3,11 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+*.so
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
 
 # Virtualenv
 .venv/
@@ -16,40 +21,25 @@ staticfiles/
 *.log
 
 # Secrets & env
+.ssh/
 .env
 .env.*
 *.secret
 
-# Editors/OS
+# Environnements / IDE
+.venv/
+.env
+.env.*
 .vscode/
 .idea/
 .DS_Store
 
+# Docker
+*.env.docker
+
 # Migrations: on les versionne ! (ne pas ignorer)
-# **/migrations/*.py
-# !**/migrations/__init__.py
-
-# local secrets
-.ssh/
-.env
-
-# local secrets
-.ssh/
-.env
-
-# Never commit local secrets/dotfiles
-.ssh/
-.bash_history
-.bashrc
-.profile
-.python_history
-
-# Never commit local secrets/dotfiles
-.ssh/
-.bash_history
-.bashrc
-.profile
-.python_history
+**/migrations/*.py
+!**/migrations/__init__.py
 
 # Never commit local secrets/dotfiles
 .ssh/
