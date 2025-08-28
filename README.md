@@ -1,4 +1,4 @@
-# MinuteBooks (LSAQ + LCSA) — Blueprint Django
+# Détention en fidéicommis de livres de sociétés (LSAQ + LCSA) — Blueprint Django
 
 Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **LCSA (fédéral)** et **LSAQ (Québec)**. Ce dépôt fournit une base robuste (modèle de données, API, admin, i18n, stockage, déploiement) pour démarrer rapidement et évoluer vers la production.
 
