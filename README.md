@@ -1,6 +1,6 @@
-# MinuteBooks (QC + CBCA) — Blueprint Django
+# MinuteBooks (LSAQ + LCSA) — Blueprint Django
 
-Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **CBCA (fédéral)** et **LSAQ (Québec)**. Ce dépôt fournit une base robuste (modèle de données, API, admin, i18n, stockage, déploiement) pour démarrer rapidement et évoluer vers la production.
+Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **LCSA (fédéral)** et **LSAQ (Québec)**. Ce dépôt fournit une base robuste (modèle de données, API, admin, i18n, stockage, déploiement) pour démarrer rapidement et évoluer vers la production.
 
 > **Statut** : en construction (MVP). Code et schéma faits pour itérer vite, tout en gardant une trajectoire prod (S3, Postgres, Celery, permissions objet).
 
@@ -40,7 +40,7 @@ Plateforme de **livres de société** numériques, bilingue (FR/EN), couvrant **
 * **Registres valeurs mobilières** : classes d’actions, certificats, émissions/transferts/rachats, cap table calculée.
 * **Tickets (portail client)** : demandes (rédaction, dépôts REQ/Corporations Canada, migration livre papier), pièces jointes.
 * **Partage sécurisé** : liens lecture seule temporaires (data room) avec expiration.
-* **Rappels** : échéances annuelles / événementielles (REQ, CC, ISC/BUO), Celery + Redis.
+* **Rappels** : échéances annuelles / événementielles (REQ, CC), Celery + Redis.
 * **Audit** : historique & audit des modifications.
 
 ## Architecture & apps
@@ -221,7 +221,7 @@ python manage.py createsuperuser
 ## Contribuer
 
 * PRs bienvenues. Merci d’inclure **migrations** quand le schéma change.
-* Respecter l’i18n (chaînes `gettext`) et la terminologie LSAQ/CBCA.
+* Respecter l’i18n (chaînes `gettext`) et la terminologie LSAQ/LCSA.
 
 ## Licence
 
